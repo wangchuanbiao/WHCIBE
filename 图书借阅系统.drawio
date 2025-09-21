@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="第 1 页" id="tx1UL1AgmVNEwFA7b370">
+    <mxGraphModel dx="946" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-1" value="读者" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-2" value="图书借阅系统" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-3" value="管理员" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.056;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-1" target="xy82xzP9ybe6lFsScvhQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint" />
+            <mxPoint x="280" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-5" value="借书请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-4">
+          <mxGeometry x="-0.0785" y="-2" relative="1" as="geometry">
+            <mxPoint x="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=1.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.302;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-1" target="xy82xzP9ybe6lFsScvhQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="390" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-7" value="还书请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-6">
+          <mxGeometry x="-0.0024" y="2" relative="1" as="geometry">
+            <mxPoint x="-20" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-8" value="查询条件" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-1" target="xy82xzP9ybe6lFsScvhQ-2">
+          <mxGeometry x="0.035" y="-26" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="420" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.607;exitY=0.114;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-2" target="xy82xzP9ybe6lFsScvhQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-13" value="图书信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-12">
+          <mxGeometry x="0.0472" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.91;entryY=1.06;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-2" target="xy82xzP9ybe6lFsScvhQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-15" value="借阅结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-14">
+          <mxGeometry x="0.0271" y="-3" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.981;exitY=0.471;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-2" target="xy82xzP9ybe6lFsScvhQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="450" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-17" value="逾期通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-16">
+          <mxGeometry x="0.0207" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.33;entryY=-0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-2" target="xy82xzP9ybe6lFsScvhQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-19" value="统计报表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-18">
+          <mxGeometry x="0.0337" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.94;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xy82xzP9ybe6lFsScvhQ-2" target="xy82xzP9ybe6lFsScvhQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="570" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xy82xzP9ybe6lFsScvhQ-21" value="事务通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xy82xzP9ybe6lFsScvhQ-20">
+          <mxGeometry x="0.2409" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
